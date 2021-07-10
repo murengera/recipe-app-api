@@ -4,8 +4,7 @@ python:
 
 services:
   - docker
-before_install:
-  - echo $DOCKER_PASSWORD | docker login --username daltonbigirimana5 --password-stdin
+
 
 before_script: pip install docker-compose
 
